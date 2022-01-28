@@ -1,0 +1,40 @@
+kind: user
+metadata:
+  id: 1643258808034447535
+  name: admin
+spec:
+  created_by:
+    time: "2022-01-27T04:46:48.033850006Z"
+    user:
+      name: 3c4bbf61-4216-4208-8a31-29f1eef333c6.teletron-auth
+  expires: "0001-01-01T00:00:00Z"
+  local_auth:
+    mfa:
+    - addedAt: "2022-01-27T04:56:54.284705942Z"
+      id: f44a3c83-08e2-4184-af14-6b09f5952300
+      kind: mfa_device
+      lastUsed: "2022-01-27T04:56:54.285070490Z"
+      metadata:
+        Name: otp
+        Namespace: default
+      totp:
+        key: PZ4LFS46MCJT2JVNE5UQ7NW7BQZRNENU
+      version: v1
+    password_hash: JDJhJDEwJHhvSVhuMXYwLm9LNkc1RDEvR2VBYS5LZGlOdzVwVFhMckcuT0VPb0dQdUNhRG1SNHpKbWc2
+  roles:
+  - access
+  - editor
+  status:
+    is_locked: false
+    lock_expires: "0001-01-01T00:00:00Z"
+    locked_time: "0001-01-01T00:00:00Z"
+    recovery_attempt_lock_expires: "0001-01-01T00:00:00Z"
+  traits:
+    kubernetes_groups:
+    - ""
+    kubernetes_users:
+    - ""
+    logins:
+    - root
+    windows_logins: null
+version: v2

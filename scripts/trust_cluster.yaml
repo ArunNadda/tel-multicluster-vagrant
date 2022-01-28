@@ -1,0 +1,12 @@
+kind: trusted_cluster
+version: v2
+metadata:
+  name: teletron-auth
+spec:
+  enabled: true
+  token: 69260fc37debdfb56d58ba4130ebfd35
+  tunnel_addr: 10.0.0.15:3024
+  web_proxy_addr: 10.0.0.15:443
+  role_map:
+    - remote: "access"
+      local: ["access"]
